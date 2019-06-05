@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+
+<body>
+<p id="paragraf">Enes Kasapoğlu</p>
+<button onclick="bas()"onmouseover="getir()"onmouseout="gotur">DEVAM</button>
+</body>
+
+<script>
+function bas()
+{
+var bas = document.getElementById("paragraf");
+bas.style.color=("red");
+}
+
+function getir()
+{
+var getir = document.getElementById("paragraf");
+getir.style.color=("green");
+
+}
+function gotur()
+{
+var gotur = document.getElementById("paragraf");
+gotur.style.color=("yellow");
+
+}
+
+</script>
+</html>
